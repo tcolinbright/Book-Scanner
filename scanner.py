@@ -40,6 +40,7 @@ def main():
             confirmation = input("Is this correct? (Y/n): ")
             if confirmation.lower() != 'n':
                 write_book_info_to_csv(isbn, bin_number, book_info)
+                print("------\n")
             else:
                 print("Please re-enter the correct ISBN.")
 
