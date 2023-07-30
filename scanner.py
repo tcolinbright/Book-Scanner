@@ -23,21 +23,25 @@ def write_book_info_to_csv(isbn, bin_number, book_info):
 
 def main():
     while True:
-        isbn = input('Enter ISBN (or "q" to quit): ')
-        if isbn.lower() == 'q':
+        bin_number = input('Enter bin number (or "q" to quit): ')
+        if bin_number.lower() == 'q':
             break
 
-        book_info = get_book_info_from_isbnsearch(isbn)
-        print(f"Here is the book information for ISBN {isbn}:")
-        for key, value in book_info.items():
-            print(f"{key}: {value}")
+        while True:
+            isbn = input('Enter ISBN (or "b" to change bin): ')
+            if isbn.lower() == 'b':
+                break
+            
+            book_info = get_book_info_from_isbnsearch(isbn)
+            print(f"Here is the book information for ISBN {isbn}:")
+            for key, value in book_info.items():
+                print(f"{key}: {value}")
 
-        confirmation = input("Is this correct? (Y/n): ")
-        if confirmation.lower() != 'n':
-            bin_number = input('Enter bin number: ')
-            write_book_info_to_csv(isbn, bin_number, book_info)
-        else:
-            print("Please re-enter the correct ISBN.")
+            confirmation = input("Is this correct? (Y/n): ")
+            if confirmation.lower() != 'n':
+                write_book_info_to_csv(isbn, bin_number, book_info)
+            else:
+                print("Please re-enter the correct ISBN.")
 
 if __name__ == "__main__":
     main()
