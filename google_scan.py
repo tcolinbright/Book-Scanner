@@ -3,7 +3,7 @@
 import csv
 import requests
 
-api_key = "AIzaSyDMYDOAQ34Ve8wIq-Sni0V6onybIGn-clQ"
+
 
 
 def get_book_info(isbn):
