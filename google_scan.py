@@ -29,11 +29,12 @@ def write_isbn_to_csv(isbn):
         writer.writerow([isbn])
 
 def main():
+    bin_number = input('Enter bin number: ')
     while True:
         isbn = input('Enter ISBN (or "q" to quit): ')
         if isbn.lower() == 'q':
             break
-        bin_number = input('Enter bin number: ')
+        
         book_info = get_book_info(isbn)
         parsed_book_info = parse_book_info(book_info)
 
