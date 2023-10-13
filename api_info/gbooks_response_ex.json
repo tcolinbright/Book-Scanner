@@ -1,0 +1,80 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "8YEHygEACAAJ",
+        "etag": "7RJILGEAu9E",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/8YEHygEACAAJ",
+        "volumeInfo": {
+          "title": "There's No Such Thing as Bad Weather",
+          "subtitle": "A Scandinavian Mom's Secrets for Raising Healthy, Resilient, and Confident Kids (from Friluftsliv to Hygge)",
+          "authors": [
+            "Linda Åkeson McGurk"
+          ],
+          "publisher": "Touchstone",
+          "publishedDate": "2018-10-02",
+          "description": "Bringing Up Bébé meets Last Child in the Woods in this “fascinating exploration of the importance of the outdoors to childhood development” (Kirkus Reviews) from a Swedish-American mother who sets out to discover if the nature-centric parenting philosophy of her native Scandinavia holds the key to healthier, happier lives for her American children. Could the Scandinavian philosophy of “There’s no such thing as bad weather, only bad clothes” hold the key to happier, healthier lives for American children? When Swedish-born Linda Åkeson McGurk moved to Indiana, she quickly learned that the nature-centric parenting philosophies of her native Scandinavia were not the norm. In Sweden, children play outdoors year-round, regardless of the weather, and letting babies nap outside in freezing temperatures is common and recommended by physicians. Preschoolers spend their days climbing trees, catching frogs, and learning to compost, and environmental education is a key part of the public-school curriculum. In the US, McGurk found the playgrounds deserted, and preschoolers were getting drilled on academics with little time for free play in nature. And when a swimming outing at a nearby creek ended with a fine from a park officer, McGurk realized that the parenting philosophies of her native country and her adopted homeland were worlds apart. Struggling to decide what was best for her family, McGurk embarked on a six-month journey to Sweden with her two daughters to see how their lives would change in a place where spending time in nature is considered essential to a good childhood. Insightful and lively, There’s No Such Thing as Bad Weather is a fascinating personal narrative that illustrates how Scandinavian culture could hold the key to raising healthy, resilient, and confident children in America.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1501143638"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781501143632"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 0,
+          "printType": "BOOK",
+          "categories": [
+            "Family & Relationships"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=8YEHygEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=8YEHygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=8YEHygEACAAJ&dq=isbn:9781501143632&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=8YEHygEACAAJ&dq=isbn:9781501143632&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/There_s_No_Such_Thing_as_Bad_Weather.html?hl=&id=8YEHygEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=8YEHygEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "When Swedish-born Linda Åkeson McGurk moved to Indiana, she quickly learned that the nature-centric parenting philosophies of her native Scandinavia were not the norm."
+        }
+      }
+    ]
+  }
